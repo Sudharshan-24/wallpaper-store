@@ -1,0 +1,29 @@
+.wallpapers {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wallpapers {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.wallpaper {
+  border-radius: 1rem;
+}
+
+.wallpaper img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.wallpaper img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  overflow: hidden;
+  border-radius: 10px;
+}

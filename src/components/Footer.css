@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 1.5px;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: #2f3e46;
+}
